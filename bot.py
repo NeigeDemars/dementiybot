@@ -2,10 +2,7 @@ import telebot, random
 from telebot.types import Message
 aqualang = [
     'https://i.ytimg.com/vi/weZUdSpSfJg/maxresdefault.jpg',
-    'http://www.tetis.ru/img/articles/equip/prodive_scuba/prodive_scuba_02.jpg',
-    'http://s019.radikal.ru/i634/1305/db/483b1aca4a8a.jpg',
     'https://memegenerator.net/img/instances/56409190/aqualung.jpg',
-    'http://creamroyal.ru/upload/iblock/66b/66b9629a9060d33fc3c58fed4dec3cc4.png',
     'https://www.open-dive.ru/UPLOAD/diver01.jpg',
 ]
 
