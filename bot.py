@@ -1,13 +1,14 @@
 import telebot, random
 from telebot.types import Message
+import token
 aqualang = [
     'https://i.ytimg.com/vi/weZUdSpSfJg/maxresdefault.jpg',
     'https://memegenerator.net/img/instances/56409190/aqualung.jpg',
     'https://www.open-dive.ru/UPLOAD/diver01.jpg',
 ]
 
-TOKEN = '797480817:AAGbVW6GHQV6yTO61cMFlnFzn7B3876y0z4';
-bot = telebot.TeleBot(TOKEN)
+
+bot = telebot.TeleBot(token.TOKEN)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
